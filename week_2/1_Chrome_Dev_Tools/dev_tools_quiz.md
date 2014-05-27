@@ -1,6 +1,6 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
-![Alt text](http://phase_0_unit_1/week_2/1_Chrome_Dev_tools/imgs/Code_School_Points.jpg "Code School Points")
+![Alt text](http://phase_0_unit_1/week_2/1_Chrome_Dev_Tools/imgs/Code_School_Points.jpg "Code School Points")
 
 ##QUIZ
 * Explain which tabs support the following actions and how.
@@ -35,4 +35,11 @@ Answers:
 
 2. The keyboard shortcut to open DevTools on my Mac is option/command/i
 
-3. 
+3a. The current background color for the page is #0b0f11
+3b. The background color was tweaked to white
+3c. I tweaked the sidebar that contains the logo so that it was 85px
+3d. I fixed the nav link hovers so that it is black
+3e. Screenshot complete
+3f. Uploaded to the imgs directory in 1_Chrome_Dev_Tools as Postmachina.jpg
+
+4. 
