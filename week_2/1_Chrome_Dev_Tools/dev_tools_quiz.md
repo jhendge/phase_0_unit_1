@@ -1,6 +1,6 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
-<!-- Modify the Markdown to include your answers. Don't delete the questions! -->
+![Code School Points](/Users/josephhendele/phase_0_unit_1/week_2/1_Chrome_Dev_tools/imgs/Code_School_Points.jpg "Code School Points")
 
 ##QUIZ
 * Explain which tabs support the following actions and how.
@@ -25,3 +25,14 @@
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
+
+
+Answers:
+
+1a. Realtime editing of HTML and CSS occurs on the Elements and Sources tabs. The elements tab allows users to look through individual pieces of html and its corresponding CSS in order to make changes and see them reflected immediately. The sources tab allows users to do this but it allows them to save the changes to actual source files, thus making the changes a bit more permanent. 
+1b. Javascript debugging occurs on the Network and Sources tabs. The network tab notifies users of any errors that might have occured in HTML, CSS, and JavaScript files, as well as images and others. The sources tab them allows for changes to be made to see if the JavaScript can be fixed.
+1c. Performance Optimization occurs on the PageSpeed (loaded from the Chrome Web Store - not a standard tab) and Network tabs. PageSpeed will tell users ways that the web page can increase its performance and the network tab will show specifically what can be addessed and fixed.
+
+2. The keyboard shortcut to open DevTools on my Mac is option/command/i
+
+3. 
