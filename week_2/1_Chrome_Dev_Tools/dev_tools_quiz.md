@@ -42,7 +42,7 @@ Answers:
 * Screenshot complete
 * Uploaded to the imgs directory in 1_Chrome_Dev_Tools as Postmachina.jpg
 
-* I'm not totally sure. I originally thought that this was some kind of read only image file but that was clearly not the case when the HTML file showed that it was text. I definitely tried changing the text and playing with the currounding elements but didn't have much luck. I'm super intrigued by this now! Does it have to do with licenses and the user dictating certain parts that can't be changed no matter what??
+* I'm not totally sure. I originally thought that this was some kind of read only image file but that was clearly not the case when the HTML file showed that it was text. I definitely tried changing the text and playing with the currounding elements but didn't have much luck. I'm super intrigued by this now! Is the text actually part of the background, that's why it can't be changed? You would need to change the background in order to get the text to be changed?
 
 * 92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
 * In order to find this info, navigate to the Network tab and order the files from largest to smallest, and click on the largest image link. To get more specifics, click on the preview tab after you've click on the link.
