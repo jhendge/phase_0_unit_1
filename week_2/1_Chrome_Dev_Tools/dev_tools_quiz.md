@@ -29,23 +29,23 @@
 
 Answers:
 
-1a. Realtime editing of HTML and CSS occurs on the Elements and Sources tabs. The elements tab allows users to look through individual pieces of html and its corresponding CSS in order to make changes and see them reflected immediately. The sources tab allows users to do this but it allows them to save the changes to actual source files, thus making the changes a bit more permanent. 
-1b. Javascript debugging occurs on the Network and Sources tabs. The network tab notifies users of any errors that might have occured in HTML, CSS, and JavaScript files, as well as images and others. The sources tab them allows for changes to be made to see if the JavaScript can be fixed.
-1c. Performance Optimization occurs on the PageSpeed (loaded from the Chrome Web Store - not a standard tab) and Network tabs. PageSpeed will tell users ways that the web page can increase its performance and the network tab will show specifically what can be addessed and fixed.
+* Realtime editing of HTML and CSS occurs on the Elements and Sources tabs. The elements tab allows users to look through individual pieces of html and its corresponding CSS in order to make changes and see them reflected immediately. The sources tab allows users to do this but it allows them to save the changes to actual source files, thus making the changes a bit more permanent. 
+* Javascript debugging occurs on the Network and Sources tabs. The network tab notifies users of any errors that might have occured in HTML, CSS, and JavaScript files, as well as images and others. The sources tab them allows for changes to be made to see if the JavaScript can be fixed.
+* Performance Optimization occurs on the PageSpeed (loaded from the Chrome Web Store - not a standard tab) and Network tabs. PageSpeed will tell users ways that the web page can increase its performance and the network tab will show specifically what can be addessed and fixed.
 
-2. The keyboard shortcut to open DevTools on my Mac is option/command/i
+* The keyboard shortcut to open DevTools on my Mac is option/command/i
 
-3a. The current background color for the page is #0b0f11
-3b. The background color was tweaked to white
-3c. I tweaked the sidebar that contains the logo so that it was 85px
-3d. I fixed the nav link hovers so that it is black
-3e. Screenshot complete
-3f. Uploaded to the imgs directory in 1_Chrome_Dev_Tools as Postmachina.jpg
+* The current background color for the page is #0b0f11
+* The background color was tweaked to white
+* I tweaked the sidebar that contains the logo so that it was 85px
+* I fixed the nav link hovers so that it is black
+* Screenshot complete
+* Uploaded to the imgs directory in 1_Chrome_Dev_Tools as Postmachina.jpg
 
-4. I'm not totally sure. I originally thought that this was some kind of read only image file but that was clearly not the case when the HTML file showed that it was text. I definitely tried changing the text and playing with the currounding elements but didn't have much luck. I'm super intrigued by this now! Does it have to do with licenses and the user dictating certain parts that can't be changed no matter what??
+* I'm not totally sure. I originally thought that this was some kind of read only image file but that was clearly not the case when the HTML file showed that it was text. I definitely tried changing the text and playing with the currounding elements but didn't have much luck. I'm super intrigued by this now! Does it have to do with licenses and the user dictating certain parts that can't be changed no matter what??
 
-5a. 92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
-5b. In order to find this info, navigate to the Network tab and order the files from largest to smallest, and click on the largest image link. To get more specifics, click on the preview tab after you've click on the link.
+* 92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
+* In order to find this info, navigate to the Network tab and order the files from largest to smallest, and click on the largest image link. To get more specifics, click on the preview tab after you've click on the link.
 http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
 
-6. Reduce blocking resources - Inline small CSS. Because this isn't one specific file or image, I'm not entirely sure how many kilobytes of data can be eliminated. How exactly can I find this out? 
+* Reduce blocking resources - Inline small CSS. Because this isn't one specific file or image, I'm not entirely sure how many kilobytes of data can be eliminated. How exactly can I find this out? 
