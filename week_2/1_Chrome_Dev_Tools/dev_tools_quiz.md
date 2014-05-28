@@ -1,6 +1,6 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
-![Code School Points](http://phase_0_unit_1/week_2/1_Chrome_Dev_Tools/imgs/Code_School_Points.jpg)
+![Code School Points](imgs/Code_School_Points.jpg)﻿
 
 ##QUIZ
 * Explain which tabs support the following actions and how.
