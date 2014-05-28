@@ -1,6 +1,6 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
-![Alt text](https://github.com/jhendge/phase_0_unit_1/blob/master/week_2/1_Chrome_Dev_Tools/imgs/Code_School_Points.jpg "Code School Points")
+![Code School Points](http://phase_0_unit_1/week_2/1_Chrome_Dev_Tools/imgs/Code_School_Points.jpg)
 
 ##QUIZ
 * Explain which tabs support the following actions and how.
@@ -42,4 +42,10 @@ Answers:
 3e. Screenshot complete
 3f. Uploaded to the imgs directory in 1_Chrome_Dev_Tools as Postmachina.jpg
 
-4. 
+4. I'm not totally sure. I originally thought that this was some kind of read only image file but that was clearly not the case when the HTML file showed that it was text. I definitely tried changing the text and playing with the currounding elements but didn't have much luck. I'm super intrigued by this now! Does it have to do with licenses and the user dictating certain parts that can't be changed no matter what??
+
+5a. 92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
+5b. In order to find this info, navigate to the Network tab and order the files from largest to smallest, and click on the largest image link. To get more specifics, click on the preview tab after you've click on the link.
+http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
+
+6. Reduce blocking resources - Inline small CSS. Because this isn't one specific file or image, I'm not entirely sure how many kilobytes of data can be eliminated. How exactly can I find this out? 
