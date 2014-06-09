@@ -3,10 +3,10 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+- Add file changes in your working directory to your index
 
 #### branch
-<!-- Your defnition here -->
+- Lists existing branches, including remote branches if '-a' is provided. Creates a new branch if a branch new is provided.
 
 #### checkout
 <!-- Your defnition here -->
