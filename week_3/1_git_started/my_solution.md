@@ -44,9 +44,9 @@ Define the following commands and describe how they work/what they do.
 
 ## Release 4: Git Workflow
 
-- Push files to a remote repository
-- Fetch changes
-- Commit locally
+- Push files to a remote repository = *create or make changes to a file(s)* -> git add [file name] -> git commit -m ['message'] -> *assuming you have initialized/reactivated the remote repo you're working with* git push origin master (not always going to be 'origin master')
+- Fetch changes = 
+- Commit locally = 
 
 ## Release 5: Errors you encountered
 1. Error
