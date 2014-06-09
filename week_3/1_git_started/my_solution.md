@@ -39,7 +39,7 @@ Define the following commands and describe how they work/what they do.
 - Removes files from your index and your working directory so they will not be tracked.
 
 #### status
-- Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your indecx and ready for committing).
+- Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing).
 
 
 ## Release 4: Git Workflow
