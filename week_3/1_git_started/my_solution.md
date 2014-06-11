@@ -45,7 +45,7 @@ Define the following commands and describe how they work/what they do.
 ## Release 4: Git Workflow
 
 - Push files to a remote repository = *create or make changes to a file(s)* -> git add [file name] -> git commit -m ['message'] -> *assuming you have initialized/reactivated the remote repo you're working with,* use git push origin master (not always going to be 'origin master')
-- Fetch changes = 
+- Fetch changes = *set up the remote that changes will be fetched from (in this case, DBC) by using* git remote add upstream https://github.com/Devbootcamp/phase_0_unit_1.git -> git fetch upstream -> git checkout master -> git merge upstream/master -> git commit -m 'added DBC changes' -> git push origin master
 - Commit locally = *create or make changes to a file(s)* -> git add [file name] -> git commit -m ['message']
 
 ## Release 5: Errors you encountered
