@@ -53,4 +53,8 @@ Define the following commands and describe how they work/what they do.
 2. Solution
 3. Cause (explain the error)
 
+Thankfully, I have yet to encounter an error message but I know I will git (har har) one sooner or later... and will probably go into cardiac arrest... and ask 40 million questions before it's fixed. I'll post the first one I come across! (written on June 11, 2014)
+
+Edit: It happened - I finally got an error message. I had been committing and pushing changes to my phase_0_unit_1 repo with no issues but wanted to try adding or changing the remote so that I could also push to my jhendge.github.io repo. When I tried doing that, I received a "fatal: origin already exists" message. Apparently, because I had already reserved the "origin" for my phase_0_unit_1 repo, I was getting the message when I tried to also refer to my jhendge.github.io repo as the "origin." I looked up how to ameliorate the issue on StackOverflow and found that I simply needed to call the remote something other that "origin," so I picked "io." Now, when I want to push something to my github.io repo, I use "git push io master." (updated on June 12, 2014)
+
 ## Release 6: Reflection
