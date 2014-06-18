@@ -94,7 +94,7 @@ this.attack(62,56); // attack some more
 // it included the argument, "let's attack." It is also possible for there to be an empty () 
 // as methods do not always explicitly need to include an argument.
 // What is the point of the semicolons?
-// The semicolons in JS is used to seperate statements. Semicolons are not not mandatory to 
+// The semicolons in JS are used to seperate statements. Semicolons are not not mandatory to 
 // include after every line, but they must be used if you have two or more statements on the same line. 
 
 // Reflection:
@@ -102,10 +102,10 @@ this.attack(62,56); // attack some more
 
 // I love playing games so I thought Code Combat would be a nice way to learn a little bit of JS while also having fun. 
 // As it turned out, that wasn't really the case. The game seemed fun, interesting, and even a little bit funny but when I completed
-//  the final mission, I felt like I hadn't really learned a whole lot. It might turn out that as I'm going through the next couple of 
-//  exercises, I'll find I learned more than initially anticipated. I couldn't help but wonder if the time would've been better spent 
-//  going through some of Codecademy's JS track and getting my feet wet that way. My sense is that I will be doing that sometime this week so
-//   that I can get an even better base understanding of JS. 
+// the final mission, I felt like I hadn't really learned a whole lot. It might turn out that as I'm going through the next couple of 
+// exercises, I'll find I learned more than initially anticipated. I couldn't help but wonder if the time would've been better spent 
+// going through some of Codecademy's JS track and getting my feet wet that way. My sense is that I will be doing that sometime this week so
+// that I can get an even better base understanding of JS. 
 
 
 
