@@ -1,91 +1,84 @@
 // GPS 1.2 - JavaScript
 
 // YOUR FULL NAMES:
-//  1. Joe Hendele
-//  2. Joey Chamberlin
+//  1. Theo Skolnik
+//  2. Joe Hendele
 
 
 // 0. "YOU SIGNED... WHO?!"
-var clientList = [];
 
+var umaThurman = {
+    name: "Uma Thurman",
+    age: 40,
+    quote: "I must kill bill",
+};
+
+var clintEastwood = {
+  name: "Clint Eastwood",
+  age: 83,
+  quote: "Get off my lawn!",
+};
 
 // 1. "Here they Come!"
+
 var adamSandler = {
-  name: 'Adam Sandler',
-  age: 47,
-  quote: 'That\'s your home! Are you too good for your home?!'
-  };
-  
+    name: "Adam Sandler",
+    age: 47,
+    quote: "That's your home!",
+};
+
 var kristenBell = {
-  name: 'Kristen Bell',
-  age: 33,
-  quote: 'Do you wanna build a snowman?'
-  };
-  
+    name:"Kristen Bell",
+    age: 33,
+    quote: "Do you wanna build a snowman?",
+};
+
 var jimCarrey = {
-  name: 'Jim Carrey',
-  age: 52,
-  quote: '...So you\'re telling me there\'s a chance? YEAH!'
-  };
-  
-var clintEastwood = {
-  name: 'Clint Eastwood',
-  age: 83,
-  quote: 'Get off my lawn!'
-  };
-  
-var morganFreeman = {
-  name: 'Morgan Freeman',
-  age: 76,
-  quote: 'Andy Dufresne - who crawled through a river of shit and came out clean on the other side.'
-  };
-
-
+    name: "Jim Carrey",
+    age: 52,
+    quote: "...So you're telling me there's a chance?",
+};
 
 // 2. "TIME IS MONEY!"
-
+//YOUR CODE HERE!
 var Client = function (name, age, quote) {
   this.name = name;
   this.age = age;
   this.quote = quote;
 };
 
+console.log(jimCarrey.name, jimCarrey.age, jimCarrey.quote);
+console.log(kristenBell.name, kristenBell.age, kristenBell.quote);
+
 var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
 shooterMcGavin.constructor === Client;
 shooterMcGavin.age === 48;
 shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to what I say.";
-
+console.log(shooterMcGavin);
 
 // 3. "SHOW 'EM OFF!"
 
-var clientList = [adamSandler, kristenBell, jimCarrey, clintEastwood, morganFreeman];
+console.log(shooterMcGavin)
 
 // 4. "But wait, there's more!"
+// Pick any of the client objects you created, and assign it a property called showQuote
+// that stores a function that will display that client's quote. Test your code!
 
-var showQuote = function(clientName) {
-  return clientName.quote;
+Client.showQuote = function(Client) {
+  console.log(Client.quote);
 };
 
-showQuote(adamSandler);
+console.log(Client.showQuote(jimCarrey));
 
 // 5.  ** BONUS **
 
-var talentAgency = {
-  name: 'Joe and Joey Represent You!',
-  address: '404 Code Lane',
-  email: 'agency@gmail.com'
-  };
 
-var clientListAd = [adamSandler, kristenBell, jimCarrey, clintEastwood, morganFreeman, talentAgency];
-
-//  6.  Your Reflection:
-//  
-//  This GPS was a really great experience because I felt like Joey and I had to do a good amount of digging
-//  and learning on the fly. We both clearly understood basic JavaScript concepts and syntax, but needed to do
-//  some problem solving during the actual session. I was a bit nervous at first and wasn't sure if we were going
-//  to be able to figure everything out but it really helped to talk things through and share ideas. Really, it felt
-//  like a little bit of magic. To not think you can do something and then realize that you have help and shared 
-//  determination to get through it, it's awesome.
-//  
-//  I feel like I'm learning more now at this stage in my life than I ever have before. I'm looking forward to the next
-//  challenge.
+// 6.  Your Reflection:
+// Having done this GPS once before in a previous cohort, I thought I had gotten everything
+// out of it that I could have. I was under the impression that my previous partner and I had
+// uncovered everything and had all of the right answers... man, I was so wrong! I had a totally
+// different experience this time around. I felt like Theo and I really pushed for not only the 
+// solutions, but also the reasoning behind everything. It took us a while to test things in node 
+// and I could sense that there was some frustration mounting, but we did a nice job of overcoming
+// that and really pushing to understand the material. Overall, it was a demanding session 
+// (over 1.5 hours!) but one in which I got a ton out of it. I would happily pair with Theo again!
