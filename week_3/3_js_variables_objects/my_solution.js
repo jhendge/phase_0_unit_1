@@ -1,18 +1,32 @@
-// I paired [by myself, with:] on this challenge.
+// I worked by myself on this challenge
 
 // __________________________________________
 // Write your code below.
 
+// Test One
+var secretNumber = 7;
 
+// Test Two
+var password = "just open the door";
 
+// Test Three
+var allowedIn = false;
 
-
-
+// Test Four
+var members = ["John", "James", "Joseph", "Mary"]
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
+// I found this to be a really useful first step in Test Driven Development (TDD).
+// Having never actually used node, it felt good to get in the terminal and work through
+// a structured exercise. I think I might have even been a little too eager to jump in 
+// because I had no idea what was going on when I started getting Reference Errors
+// indicating that my variables were not defined. I went back to the instructions, calmed
+// down, defined my variables, and tried the tests again. When the tests were performed 
+// correctly and I received a friendly little "true" from my terminal, I had another one
+// of those "this is really cool" moments. I know we've only just begun to barely scratch 
+// the surface of TDD but I'm excited to work on the next round of tests!
 // 
 // 
 // 
