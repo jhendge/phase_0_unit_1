@@ -17,22 +17,45 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+// Pseudocode 
+// 
+// Give adam a name property with the value "Adam".
+var adam = {
+  name: "Adam"
+};
+// Add a spouse property to terah and assign it the value of adam.
+terah.spouse = adam
+// Change the value of the terah weight property to 125.
+terah.weight = 125
+// Remove the eyeColor property from terah
+delete terah.eyeColor
+// Add a spouse property to adam and assign it the value of terah.
+adam.spouse = terah
+// Add a children property to terah and and use object literal notation to assign this variable the value of a JavaScript Object object with no properties
+terah.children = {}
+// Add a carson property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carson".
+terah.children.carson = {name: "Carson"}
+// Add a carter property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carter".
+terah.children.carter = {name: "Carter"}
+// Add a colton property to the value of the terah children property and assign it the value of an object with the property name with a value of "Colton".
+terah.children.colton = {name: "Colton"}
+// Add a children property to adam and assign it the value of terah children.
+adam.children = terah.children
 
-
-
-
-
+console.log("\nHere is your final terah object:")
+console.log(terah)
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
-
+// Syntax, syntax, syntax! For me, the big "Ah ha" moment came when I realized I could add a
+// property to the terah variable by using the following syntax: object.desiredProperty = value.
+// Once I figured that out, that exercise actually became enjoyable. I hit another snag when trying
+// to determine the appropriate syntax for adding Carson, Carter, and Colton. I must've tried four
+// or five different iterations of the syntax before "terah.children.carson = {name: "Carson"}"
+// actually worked. I think my biggest takeaway from this exercise was as follows: JavaScript is
+// super important so be sure to absorb as much syntax and background knowledge as possible - it 
+// will inevitably help in the long run!
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
