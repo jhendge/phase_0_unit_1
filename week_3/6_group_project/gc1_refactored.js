@@ -13,19 +13,19 @@ var sum = function(x) {
 
 // Test Two
 var mean = function(y) {
-	return sum(values) / values.length;
+	return sum(y) / y.length;
 }
 
 // Test Three
 
 var median = function(z) {
 	var median = 0;
-	numsLen = numbers.length;
-	numbers.sort();
-	if (numLen % 2 === 0) {
-		median = (numbers[numsLen / 2 - 1] + numbers[numsLen / 2]) / 2;
+	numsLen = z.length;
+	z.sort();
+	if (numsLen % 2 === 0) {
+		median = (z[numsLen / 2 - 1] + z[numsLen / 2]) / 2;
 	} else {
-		median = numbers[(numsLen - 1) / 2];
+		median = z[(numsLen - 1) / 2];
 	}
 	return median;
 }
